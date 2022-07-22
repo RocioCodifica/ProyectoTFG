@@ -7,7 +7,6 @@
     justify-content: center;
     flex-grow: 1;
     min-height: 90vh;
-   
 }
 
 .grid {
@@ -43,42 +42,48 @@
     display: grid;
     place-items: center;
 }
+
 /* -------- HEADER ------------- */
-#header{
+#header {
     display: flex;
     flex-direction: row;
 }
-img#icono-menu{
+
+img#icono-menu {
     display: flex;
     justify-content: center;
     width: 35px;
     height: 35px;
     top: 5px;
     padding-top: 18px;
-    
 }
-#titulo{
-    width: 200px; 
+
+#titulo {
+    width: 200px;
     text-align: center;
     flex-grow: 1;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-#log-in{
+
+#log-in {
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
 }
+
 #icono-login {
     justify-content: center;
     width: 35px;
     height: 35px;
     top: 5px;
 }
-button{
+
+button {
     cursor: pointer;
     border: 0;
     border-radius: 4px;

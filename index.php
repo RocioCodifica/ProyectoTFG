@@ -13,7 +13,6 @@
 
     <header> <?php include './header.html'?></header>
     
-    
     <main>
         <div class="container">
             <div class="grid">
