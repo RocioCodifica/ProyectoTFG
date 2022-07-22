@@ -47,16 +47,17 @@
 #header{
     display: flex;
     flex-direction: row;
+    margin: 15px;
 }
-img#icono-menu{
+/* img#icono-menu{  //Por si se usan imagenes en vez del FontAwsome
     display: flex;
     justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     top: 5px;
     padding-top: 18px;
     
-}
+} */
 #titulo{
     width: 200px; 
     text-align: center;
@@ -72,11 +73,16 @@ a{
     display: flex;
     text-align: center;
 }
-#icono-login {
-    justify-content: center;
-    width: 35px;
-    height: 35px;
+#icono-login, #icono-menu {
+    
+    width: 50px;
     top: 5px;
+    margin: auto;
+}
+#icono-menu i{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 12px;
 }
 button{
     cursor: pointer;
