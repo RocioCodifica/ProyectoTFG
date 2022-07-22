@@ -92,6 +92,9 @@ a {
     font-size: 25px;
     margin: 0px 12px;
 }
+#login i{
+    font-size: 25px;
+}
 
 button {
     cursor: pointer;
