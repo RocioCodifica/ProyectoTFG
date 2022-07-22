@@ -7,7 +7,6 @@
     justify-content: center;
     flex-grow: 1;
     min-height: 90vh;
-   
 }
 
 .grid {
@@ -31,9 +30,10 @@
     background-color: white;
 }
 
+/* prueba */
 .grande {
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
 }
 
 .nombre {
@@ -43,12 +43,14 @@
     display: grid;
     place-items: center;
 }
+
 /* -------- HEADER ------------- */
-#header{
+#header {
     display: flex;
     flex-direction: row;
     margin: 15px;
 }
+
 /* img#icono-menu{  //Por si se usan imagenes en vez del FontAwsome
     display: flex;
     justify-content: center;
@@ -56,35 +58,41 @@
     height: 45px;
     top: 5px;
     padding-top: 18px;
-    
 } */
-#titulo{
-    width: 200px; 
+
+#titulo {
+    width: 200px;
     text-align: center;
     flex-grow: 1;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-#log-in{
+
+#log-in {
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
 }
-#icono-login, #icono-menu {
-    
+
+#icono-login,
+#icono-menu {
+
     width: 50px;
     top: 5px;
     margin: auto;
 }
-#icono-menu i{
+
+#icono-menu i {
     text-align: center;
     font-size: 25px;
     margin: 0px 12px;
 }
-button{
+
+button {
     cursor: pointer;
     border: 0;
     border-radius: 4px;
