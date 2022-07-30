@@ -11,8 +11,8 @@
 
 <body>
 
-    <header> <?php include './header.html'?></header>
-    
+    <header> <?php include './header.html' ?></header>
+
     <main>
         <div class="container">
             <div class="grid">
@@ -67,10 +67,10 @@
             </div>
         </div>
     </main>
-    
-    
-    
-    <footer>asdasdasdasd</footer>
+
+
+
+    <footer> <?php include './footer.html' ?></footer>
 
 </body>
 
