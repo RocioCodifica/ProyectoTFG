@@ -1,6 +1,15 @@
 :root {
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Esconder el scrollbar*/
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 
 .container {
     display: flex;
@@ -47,6 +56,8 @@
 #header {
     display: flex;
     flex-direction: row;
+    margin: 5px;
+    padding: 5px;
 }
 
 #titulo {
