@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="./resetstyles.css">
+        <link rel="stylesheet" href="./estilo.css">
+        <style>
+            .registro{
+                min-height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                
+            }
+            .formularioRegistro{
+                border:2px solid black;
+                padding: 35px;
+                text-align: center;
+            }
+            .formularioRegistro> label{
+                display: inline-block;
+                width: 110px;
+                text-align: left;
+            }
+            .formularioRegistro input{
+                padding: 5px 15px;
+            }
+        </style>
+    </head>
+    <body>
+        
+
+        <div class="registro">
+        <form action="<?php ?>" method='POST'>
+            <div class="formularioRegistro">
+                <h2>Registrarse</h2><br/><br/>
+
+                <label >Usuario:</label><input type="text" name="usuario" id="usuario"><br/><br/>
+                <label >Contraseña:</label><input type="password" name="password" id="password"><br/><br/>
+
+                <label >Email:</label><input type="email" name="email" id="email" required><br/><br/><br/>
+
+                <input type="submit" value="Registrarse">
+            </div>
+            </form>
+        </div>
+
+
+        
+        
+        
+        
+    </body>
+</html>

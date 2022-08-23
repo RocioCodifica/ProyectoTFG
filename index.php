@@ -12,7 +12,7 @@
 
 <body>
 
-    <header> <?php include './HTML/header.html' ?></header>
+    <header> <?php include './header.html' ?></header>
 
     <main>
         <div class="container">
@@ -71,7 +71,7 @@
 
 
 
-    <footer> <?php include './HTML/footer.html' ?></footer>
+    <footer> <?php include './footer.html' ?></footer>
 
 </body>
 
