@@ -12,7 +12,9 @@
 
 <body>
 
-    <header> <?php include './header.html' ?></header>
+    <header> <?php include './header.html' ?>
+    <?php include './login-popup.html' ?>
+    </header>
 
     <main>
         <div class="container">
@@ -70,7 +72,7 @@
     </main>
 
 
-
+    
     <footer> <?php include './footer.html' ?></footer>
 
 </body>
